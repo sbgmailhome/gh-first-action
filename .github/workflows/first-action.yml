@@ -12,6 +12,7 @@ jobs:
           echo "You are sufficient!"
           echo "You are daring"
           echo "You are Powerful and Strong"
+          echo "You are getting better and better day by day"
       - name: print goodbye
         run: echo "Have a great day!"
         
