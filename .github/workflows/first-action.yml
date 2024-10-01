@@ -6,8 +6,15 @@ jobs:
     steps:
       - name: print greeting
         run: echo "Hello, Good Morning!"
+      - name: print affirmations
+        run: |
+          echo "You are successful!"
+          echo "You are sufficient!"
+          echo "You are daring"
+          echo "You are Powerful and Strong"
       - name: print goodbye
         run: echo "Have a great day!"
+        
       
   
   
